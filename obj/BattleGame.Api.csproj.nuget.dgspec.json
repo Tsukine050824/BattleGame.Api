@@ -44,19 +44,21 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Dapper": {
               "target": "Package",
-              "version": "[9.*, )"
+              "version": "[2.1.66, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.*, )"
+              "version": "[9.0.7, )"
             },
-            "MySql.EntityFrameworkCore": {
+            "MySqlConnector": {
               "target": "Package",
-              "version": "[9.*, )"
+              "version": "[2.4.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
             }
           },
           "imports": [

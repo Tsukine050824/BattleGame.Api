@@ -1,9 +1,7 @@
 namespace BattleGame.Api.Models;
 
-public sealed class PlayerAsset
+public sealed class AssignAssetRequest
 {
-    public int Id { get; set; }
     public int PlayerId { get; set; }
     public int AssetId { get; set; }
-    public DateTime AssignedAt { get; set; }
 }
